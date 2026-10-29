@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Primary SEO -->
+    <title>Manvika Bhupathi | Aspiring Software Engineer & Full-Stack Developer</title>
+    <meta name="title" content="Manvika Bhupathi | Aspiring Software Engineer & Full-Stack Developer" />
+    <meta name="description" content="Portfolio of Manvika Bhupathi – Computer Science undergraduate at RGUKT Basar, full-stack developer, and AI enthusiast specializing in modern web, mobile apps, and secure systems." />
+    <meta name="author" content="Manvika Bhupathi" />
+    <meta name="keywords" content="Manvika Bhupathi, Software Developer, Full Stack Developer, RGUKT Basar, React, Node.js, Kotlin, Python, Android, Steganography, AI" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://manvikabhupathi.onrender.com" />
+    <meta property="og:title" content="Manvika Bhupathi | Aspiring Software Engineer & Full-Stack Developer" />
+    <meta property="og:description" content="Explore my portfolio of full-stack web applications, Android projects, AI assessment tools, and security suites." />
+    <meta property="og:image" content="/favicon.svg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Manvika Bhupathi | Aspiring Software Engineer" />
+    <meta property="twitter:description" content="Explore my portfolio of full-stack web applications, Android projects, and AI systems." />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Anti-FOUC Theme Initializer -->
+    <script>
+      (function() {
+        try {
+          const theme = localStorage.getItem('portfolio-theme');
+          if (theme === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-[#0B0F19] text-slate-800 dark:text-slate-100 font-sans transition-colors duration-300 antialiased selection:bg-blue-600 selection:text-white overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
